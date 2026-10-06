@@ -1,0 +1,26 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "pdf",
+      "dependencies": {
+        "pdfreader": "3.0.6",
+      },
+      "devDependencies": {
+        "@types/node": "^22.10.7",
+        "prettier": "^3.4.2",
+      },
+    },
+  },
+  "packages": {
+    "@types/node": ["@types/node@22.10.7", "", { "dependencies": { "undici-types": "~6.20.0" } }, "sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg=="],
+
+    "pdf2json": ["pdf2json@3.1.4", "", { "bin": "bin/pdf2json.js" }, "sha512-rS+VapXpXZr+5lUpHmRh3ugXdFXp24p1RyG24yP1DMpqP4t0mrYNGpLtpSbWD42PnQ59GIXofxF+yWb7M+3THg=="],
+
+    "pdfreader": ["pdfreader@3.0.6", "", { "dependencies": { "pdf2json": "3.1.4" } }, "sha512-l1HqEYtoFTiVumYCMR9YO6EST/w4gfenfnKG7n7ENJNc1GOTzI8hjodvziWPHeoL6jsDli4QiS1v3ITtmNiadw=="],
+
+    "prettier": ["prettier@3.4.2", "", { "bin": "bin/prettier.cjs" }, "sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ=="],
+
+    "undici-types": ["undici-types@6.20.0", "", {}, "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="],
+  }
+}
