@@ -1,20 +1,10 @@
 {
-  "name": "pdf",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "pdfreader": "3.0.6"
+    "pdfreader": "^3.0.8"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
-    "prettier": "^3.4.2"
+    "@types/bun": "^1.4.4",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
   }
 }
